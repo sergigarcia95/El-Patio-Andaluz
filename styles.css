@@ -12,7 +12,7 @@ body, div, header, nav, ul {
 
 
 
-/*HEADER SECTION*/
+/*MEDIA QUERIES*/
 
 @media (max-width: 600px) {
     .nav ul{
@@ -30,6 +30,14 @@ body, div, header, nav, ul {
     }
 }
 
+@media (max-width: 600px) {
+    .title-section{
+        font-size: 20px;
+        padding: 6px 12px;
+    }
+}
+
+/*HEADER SECTION*/
 
 .nav {
     background: linear-gradient(to bottom, #09053d, #174785);
@@ -107,13 +115,6 @@ nav ul{
     background-image: url(cordoba.jpeg);
     letter-spacing: 3px;
     text-transform: uppercase;
-}
-
-@media (max-width: 600px) {
-    .title-section, .title {
-        font-size: 20px;
-        padding: 6px 12px;
-    }
 }
 
 .title-section{
@@ -268,3 +269,4 @@ img.tradicion-img2:hover{
     font-size: 14px;
 
     }
+
