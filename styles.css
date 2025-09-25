@@ -3,6 +3,7 @@ body{
     font-family: sans-serif;
     box-sizing: border-box;
     text-align: center;
+    background-color: #e2eaff;
 }
 body, div, header, nav, ul {
     box-sizing: border-box;
@@ -265,4 +266,5 @@ img.tradicion-img2:hover{
     text-align: center;
     margin-top: 20px;
     font-size: 14px;
+
     }
